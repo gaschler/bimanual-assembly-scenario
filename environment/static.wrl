@@ -1,0 +1,44 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Transform {
+        	translation 0.0 0.57 -0.2425
+        	rotation 0 0 1 1.5708
+        	children [
+				    Inline{
+						url "robotbase.wrl"
+					}
+			]
+		}
+		Transform {
+        	translation 0.1 -0.57 -0.2425
+        	rotation 0 0 1 1.5708
+        	children [
+				    Inline{
+						url "robotbase.wrl"
+					}
+			]
+		}
+		Transform {
+			translation 1.05 0 0.435		
+			children [
+				Inline{
+					url "table-only.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 1.05 0 0.4225			
+			children [
+				Transform {
+					children [
+						Inline{
+							url "tabletop.wrl"
+						}
+					]
+				}
+			]
+		}
+	]
+}	

@@ -1,0 +1,21 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF gripperfingeradapter Transform {
+			children [
+				Inline {
+					url "finger-adapter.wrl"
+				}
+			]
+		}
+		DEF gripperfinger Transform {
+			#translation 0.053 0 0.0965
+			#rotation 0 0 1 1.57079632679
+			children [
+				Inline {
+					url "finger1-right.wrl"
+				}
+			]
+		}
+	]
+}

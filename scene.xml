@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="scene.wrl">
+		<model name="comau-left">
+			<body name="link0"/>
+			<body name="link1"/>
+			<body name="link2"/>
+			<body name="link3"/>
+			<body name="link4"/>
+			<body name="link5"/>
+			<body name="link6"/>
+			<body name="link7"/>
+			<body name="link8"/>
+		</model>
+		<model name="comau-right">
+			<body name="link0"/>
+			<body name="link1"/>
+			<body name="link2"/>
+			<body name="link3"/>
+			<body name="link4"/>
+			<body name="link5"/>
+			<body name="link6tool"/>
+		</model>
+		<model name="comau-environment">
+			<body name="object0"/>
+			<body name="object1"/>
+			<body name="object2"/>
+			<body name="object3"/>
+			<body name="static"/>
+		</model>
+	</scene>
+</rlsg>

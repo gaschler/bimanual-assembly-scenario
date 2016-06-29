@@ -1,0 +1,67 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF comau-left Transform {
+			translation 0 0.57 0
+			children [
+				Inline {
+					url "robots/robot-left.wrl"
+				}
+			]
+		}
+		DEF comau-right Transform {
+			translation 0.1 -0.57 0
+			children [
+				Inline {
+					url "robots/robot-right.wrl"
+				}
+			]
+		}
+		DEF comau-environment Transform {
+			children [
+				DEF object0 Transform {
+					translation 1 0.27 0.437
+					children [
+						Inline {
+							url "objects/bearing.wrl"
+						}
+					]
+				}	
+				DEF object1 Transform {
+					translation 0.9 0.37 0.437
+					children [
+						Inline {
+							url "objects/bearing.wrl"
+						}
+					]
+				}	
+				DEF object2 Transform {
+					translation 1 0.1 0.437
+					children [
+						Inline {
+							url "objects/pipe.wrl"
+						}
+					]
+				}	
+				DEF object3 Transform {
+					translation 0.9 0 0.437
+					children [
+						Inline {
+							url "objects/tree.wrl"
+						}
+					]
+				}	
+				DEF static Transform {
+					children [
+						Inline {
+							url "environment/static.wrl"
+						}
+						Inline { url "robots/frame.wrl" }
+					]
+				}
+
+			]
+		}
+	]
+}
+
